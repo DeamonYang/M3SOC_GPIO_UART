@@ -1,0 +1,51 @@
+`timescale 1 ps/ 1 ps
+module ARM_M3_SOC_vlg_tst();
+
+reg 			clk;
+reg 			rst_n;
+reg				rx;
+reg		[3:1]	key;
+
+wire	tx;
+wire	[3:0]	led;
+
+// assign statements (if any)                          
+ARM_M3_SOC i1 (
+// port map - connection between master ports and signals/registers   
+	.clk	(	clk		),
+	.rst_n	(	rst_n	),
+	.rx		(	rx		),
+	.tx		(	tx		),	
+	.key	(	key		),	
+	.led	(	led		)
+	
+	
+);
+initial                                                
+begin                                                  
+				clk		=	0	;
+				rst_n	=	0	;
+				rx		=	0	;
+				key		=	0	;
+				
+	#100		rst_n	=	1	;	
+	
+	#50000		key		=	1	;		
+	#10000		key		=	2	;	
+	#10000		key		=	3	;	
+	#10000		key		=	4	;
+	#10000		key		=	5	;
+	#10000		key		=	6	;
+	#10000		key		=	7	;	
+	
+	#10000		$stop;
+
+
+                    
+end                                                    
+always	#10		clk	=	~clk;                                                 
+
+
+                                                   
+endmodule
+
