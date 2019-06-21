@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Jun 22 00:31:46 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : ARM_M3_SOC
+Top-level Entity Name : ARM_M3_SOC
+Family : Cyclone 10 LP
+Device : 10CL025YU256C8G
+Timing Models : Final
+Total logic elements : 20,928 / 24,624 ( 85 % )
+    Total combinational functions : 20,253 / 24,624 ( 82 % )
+    Dedicated logic registers : 4,924 / 24,624 ( 20 % )
+Total registers : 4924
+Total pins : 11 / 151 ( 7 % )
+Total virtual pins : 0
+Total memory bits : 331,776 / 608,256 ( 55 % )
+Embedded Multiplier 9-bit elements : 6 / 132 ( 5 % )
+Total PLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at AHB2ROM.v(59): always construct contains both blocking and non-blocking assignments File: D:/01_RAM_CUP/05_M3SOC_GPIO/hdl/AHB2ROM.v Line: 59
+Warning (10268): Verilog HDL information at AHB2RAM.v(53): always construct contains both blocking and non-blocking assignments File: D:/01_RAM_CUP/05_M3SOC_GPIO/hdl/AHB2RAM.v Line: 53
