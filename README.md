@@ -1,1 +1,2 @@
 # M3SOC_GPIO
+在arm m3内核外挂一个gpio模块和uart模块，利用ahb_lite总线连接，该工程在黑金FPGA开发板AX1025上测试成功
