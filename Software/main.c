@@ -51,13 +51,13 @@ int main(void)
  {
 	unsigned int	key_value;
 	AHB_GPIO_LED	=	0xf;
-	delay(500000);	 
+	delay(5000000);	 
 	AHB_GPIO_LED	=	0x0;
-	delay(500000);	
+	delay(5000000);	
 	AHB_GPIO_LED	=	0xf;
-	delay(500000);	 
+	delay(5000000);	 
 	AHB_GPIO_LED	=	0x0;
-	delay(500000);
+	delay(5000000);
 	 
 	while(1)
 	{
