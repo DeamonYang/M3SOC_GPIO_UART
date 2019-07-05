@@ -53,13 +53,13 @@ int main(void)
 	unsigned int	delay_time	=	2500000; 
 	unsigned int	led_value		=	0x05; 
 	AHB_GPIO_LED	=	0xf;
-	delay(5000000);	 
+	delay(delay_time*2);	 
 	AHB_GPIO_LED	=	0x0;
-	delay(5000000);	
+	delay(delay_time*2);	
 	AHB_GPIO_LED	=	0xf;
-	delay(5000000);	 
+	delay(delay_time*2);	 
 	AHB_GPIO_LED	=	0x0;
-	delay(5000000);
+	delay(delay_time*2);
 	 
 	while(1)
 	{

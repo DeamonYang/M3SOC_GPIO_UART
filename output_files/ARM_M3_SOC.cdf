@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(10CL025YU256) Path("D:/01_RAM_CUP/05_M3SOC_GPIO/output_files/") File("ARM_M3_SOC.sof") MfrSpec(OpMask(1));
+		Device PartName(10CL025YU256) Path("C:/Project/01_RAM_CUP/05_M3SOC_GPIO/output_files/") File("ARM_M3_SOC.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
