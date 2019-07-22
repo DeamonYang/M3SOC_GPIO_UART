@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Wed Jun 26 02:10:33 2019
+Analysis & Elaboration Status : Successful - Thu Jul 11 21:55:17 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : ARM_M3_SOC
 Top-level Entity Name : ARM_M3_SOC
 Family : Cyclone 10 LP
-Total logic elements : 22,561
-    Total combinational functions : 20,245
-    Dedicated logic registers : 4,924
-Total registers : 4924
-Total pins : 11
-Total virtual pins : 0
-Total memory bits : 331,776
-Embedded Multiplier 9-bit elements : 6
-Total PLLs : 0
+Total logic elements : N/A until Partition Merge
+    Total combinational functions : N/A until Partition Merge
+    Dedicated logic registers : N/A until Partition Merge
+Total registers : N/A until Partition Merge
+Total pins : N/A until Partition Merge
+Total virtual pins : N/A until Partition Merge
+Total memory bits : N/A until Partition Merge
+Embedded Multiplier 9-bit elements : N/A until Partition Merge
+Total PLLs : N/A until Partition Merge
